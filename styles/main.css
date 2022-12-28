@@ -1,3 +1,42 @@
-nav{
+body,html{
+    padding: 0px;
+    margin: 0px 0px;}
+
+
+ul.menu-items{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
     display: flex;
+
+}
+
+li{
+    height: 60px;
+    background: #adddec;
+    width: calc(50% - 34px);
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li.logo{
+    width: 10vw;
+}
+
+li.logo>a>img {
+    width: 68px;
+    height: 60px;
+}
+
+div.location{
+    width:90vw;
+    padding:2vw;
+}
+iframe{
+    width:90vw;
+    height: 400px;
+}
+div.location{
+    margin:0px;
 }
