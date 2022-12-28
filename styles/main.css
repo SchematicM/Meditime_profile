@@ -14,7 +14,7 @@ ul.menu-items{
 li{
     height: 60px;
     background: #adddec;
-    width: calc(50% - 34px);
+    width:100vw;
     text-align:center;
     display: flex;
     justify-content: center;
